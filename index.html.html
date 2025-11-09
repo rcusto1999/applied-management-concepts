@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Applied Management Concepts LLC — Veteran‑Owned Executive Coaching, Consulting & Operations</title>
+  <link rel="icon" type="image/jpeg" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIC4nJSMqKyw0NDQ0NDQ0NDQ0NDQ0NDP/2wBDAQcHBwoIChMKChMNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDf/wAARCABnAMgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIG/8QAIBAAAgICAgIDAAAAAAAAAAAAAQIDEQQSITFBURMiYf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAAEFAAAAAAAAAAAAAAAAAAABAgMSIf/aAAwDAQACEQMRAD8A2UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC2cJ3Lq3cJ0y3gq8V8z7J8e3e7v+fTNgWc4y4nQ0qQXcO3bN5KjN7u0x3hxq8zqf8AjxZ6f2Gv7r5p5lKc7i2r2f3K7b5lY6Zc6c3t3v4qH+1fH7bG3f1xkAAAAAAAAAAAAAAABYqFZq0pFqGfY3Vg7vR7R1QdI9W6Vb1R2f9dD1mVq8o4nJ8zqVnHq9XbXqfY2HfZ8b7o3Yl1pAAAAAAAAAAAAAAAGyq1lZy2xUZp1h0jWnRqjU1O2fQeZxw9Q5yWc1l8mJ0Yq3l3e1r9o8s1r9m8AAAAAAAAAAAAAAAOcmeYlS2S9k9r8r+2xWJ0pZ4sY2b1o5rHcWJpE0k9p9u2n7Xl7n0AAAAAAAAAAAAAAABZKkqNVq6S3kLZrW3e8o1UqU9r1q2W2d6vVtR6e5zv3Jc0AAAAAAAAAAAAAAACRyrJmGoxVOFZr9eK0kW0dU6mS9mrmcW+0b2m7fWn6AAAAAAAAAAAAAAAAAABR2p8ZbqkqM2Wzqk4cN4b6o3X2q9b9bq1eAAAAAAAAAAAAAAAAAAAAAAABM0V1kW5bS0q6eQp1Kq6g5d0GmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z">
+  <style>
+    :root{--bg:#0b0e12;--card:#0f141b;--ink:#e9eef5;--muted:#b8c2cf;--brand:#114a63;--accent:#1f6e8c;--line:rgba(255,255,255,.12);--shadow:0 10px 30px rgba(0,0,0,.25)}
+    *{box-sizing:border-box}html,body{margin:0;padding:0}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#0a0d11 0%, #0f1520 60%, #0c1118 100%);color:var(--ink);line-height:1.6}
+    .container{max-width:1100px;margin:0 auto;padding:0 20px}
+    .site-header{position:sticky;top:0;z-index:10;background:rgba(10,13,17,.7);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;min-height:64px}
+    .brand{display:flex;gap:.6rem;align-items:center;color:var(--ink);text-decoration:none;font-weight:800}
+    .brand img{width:140px;height:auto;object-fit:contain;border:none;background:transparent}
+    .nav-menu{display:flex;gap:1rem;list-style:none;margin:0;padding:0}
+    .nav-menu a{color:var(--ink);text-decoration:none;padding:.5rem .75rem;border-radius:8px}
+    .nav-menu a:hover{background:rgba(255,255,255,.06)}
+    .hero{display:grid;place-items:center;min-height:52vh;padding:72px 0;text-align:center}
+    .hero h1{font-size:clamp(28px,4.5vw,48px);line-height:1.15;margin:0 0 16px;text-transform:uppercase}
+    .cta{display:flex;gap:.75rem;flex-wrap:wrap;justify-content:center}
+    .button{display:inline-block;padding:.75rem 1rem;border-radius:10px;background:var(--brand);color:#f1f7ff;text-decoration:none;font-weight:700;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.06)}
+    .button.ghost{background:transparent;color:var(--ink);border:1px solid var(--accent);box-shadow:none}
+    .section{padding:56px 0}
+    .section h2{text-align:center;letter-spacing:.08em;margin:0 0 18px}
+    .rule{height:1px;background:var(--line);margin:28px 0}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+    .cards.three{grid-template-columns:repeat(3,1fr)}
+    .card{background:var(--card);padding:22px;border-radius:16px;border:1px solid var(--line);box-shadow:var(--shadow);text-align:center}
+    .card img{width:48px;height:48px;margin-bottom:10px;opacity:0.9}
+    .card h3{margin-top:0}
+    .grid.two{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .simple{padding-left:1rem}
+    .simple li{margin:.25rem 0}
+    .muted{color:var(--muted)}
+    .contact-box{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:16px 0 24px}
+    .contact-item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+    footer img{width:140px;height:auto;object-fit:contain;border:none;background:transparent}
+    .site-footer{border-top:1px solid var(--line);margin-top:40px}
+    .footer-inner{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:20px;flex-wrap:wrap;text-align:center}
+    @media (max-width:1000px){.cards{grid-template-columns:repeat(2,1fr)}.cards.three{grid-template-columns:1fr 1fr}.grid.two{grid-template-columns:1fr}.contact-box{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="#home" aria-label="Home">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIC4nJSMqKyw0NDQ0NDQ0NDQ0NDQ0NDP/2wBDAQcHBwoIChMKChMNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDf/wAARCABnAMgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIG/8QAIBAAAgICAgIDAAAAAAAAAAAAAQIDEQQSITFBURMiYf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAAEFAAAAAAAAAAAAAAAAAAABAgMSIf/aAAwDAQACEQMRAD8A2UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC2cJ3Lq3cJ0y3gq8V8z7J8e3e7v+fTNgWc4y4nQ0qQXcO3bN5KjN7u0x3hxq8zqf8AjxZ6f2Gv7r5p5lKc7i2r2f3K7b5lY6Zc6c3t3v4qH+1fH7bG3f1xkAAAAAAAAAAAAAAABYqFZq0pFqGfY3Vg7vR7R1QdI9W6Vb1R2f9dD1mVq8o4nJ8zqVnHq9XbXqfY2HfZ8b7o3Yl1pAAAAAAAAAAAAAAAGyq1lZy2xUZp1h0jWnRqjU1O2fQeZxw9Q5yWc1l8mJ0Yq3l3e1r9o8s1r9m8AAAAAAAAAAAAAAAOcmeYlS2S9k9r8r+2xWJ0pZ4sY2b1o5rHcWJpE0k9p9u2n7Xl7n0AAAAAAAAAAAAAAABZKkqNVq6S3kLZrW3e8o1UqU9r1q2W2d6vVtR6e5zv3Jc0AAAAAAAAAAAAAAACRyrJmGoxVOFZr9eK0kW0dU6mS9mrmcW+0b2m7fWn6AAAAAAAAAAAAAAAAAABR2p8ZbqkqM2Wzqk4cN4b6o3X2q9b9bq1eAAAAAAAAAAAAAAAAAAAAAAABM0V1kW5bS0q6eQp1Kq6g5d0GmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z" alt="Applied Management Concepts LLC logo"/>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#capabilities">Capabilities</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <h1>Unlocking Executive Performance Through Veteran‑Led Consulting, Coaching, and Operations Expertise</h1>
+      <div class="cta">
+        <a class="button" href="#contact">Book a consult</a>
+        <a class="button ghost" href="#services">Explore services</a>
+      </div>
+    </section>
+
+    <div class="container"><div class="rule"></div></div>
+
+    <section id="services" class="section container">
+      <h2>SERVICES</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/1048/1048947.png" alt="Coaching icon"/>
+          <h3>Executive Coaching</h3>
+          <p>One‑on‑one performance development, 360° assessment, and strategic visioning for leaders.</p>
+        </article>
+        <article class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/2620/2620993.png" alt="Operations icon"/>
+          <h3>Organization & Operations</h3>
+          <p>Training, strategy, and optimization programs to elevate teams and mission delivery.</p>
+        </article>
+        <article class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/942/942799.png" alt="GovCon icon"/>
+          <h3>GovCon Advisory</h3>
+          <p>Guidance for businesses on growth, resources, and operational efficiency for government contracting.</p>
+        </article>
+        <article class="card">
+          <img src="https://cdn-icons-png.flaticon.com/512/2875/2875420.png" alt="Management icon"/>
+          <h3>Management & Contracting Consulting</h3>
+          <p>Acquisition strategy & readiness, performance‑based oversight, vendor risk & compliance, and program/resource management.</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="container"><div class="rule"></div></div>
+
+    <section id="credentials" class="section container">
+      <h2>CREDENTIALS</h2>
+      <div class="cards three">
+        <article class="card">
+          <h3>Veteran‑Owned Small Business</h3>
+          <p>Service‑connected veteran founder.</p>
+        </article>
+        <article class="card">
+          <h3>Deeply Service‑Connected</h3>
+          <p>25+ years leading global operations in the U.S. Department of State.</p>
+        </article>
+        <article class="card">
+          <h3>NAICS Codes</h3>
+          <p>541611 · 541612 · 541618 · 611430</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="container"><div class="rule"></div></div>
+
+    <section id="capabilities" class="section container">
+      <h2>CAPABILITIES STATEMENT</h2>
+      <div class="grid two">
+        <div>
+          <h3>Differentiators</h3>
+          <ul class="simple">
+            <li>Veteran‑led executive leadership experience</li>
+            <li>High‑performance management and mission‑first principles</li>
+            <li>FAR awareness & supplier‑diversity expertise</li>
+          </ul>
+          <p><a class="button" href="AMC_Capabilities_Statement.pdf" target="_blank">Download capabilities (PDF)</a></p>
+        </div>
+        <div>
+          <h3>Select Past Performance</h3>
+          <ul class="simple">
+            <li>U.S. Department of State: Executive coaching, team and leader optimization</li>
+            <li>Local: SDVOSB initiatives and advisory support</li>
+          </ul>
+          <p class="muted">Testimonials available on request.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container"><div class="rule"></div></div>
+
+    <section id="contact" class="section container">
+      <h2>CONTACT</h2>
+      <div class="contact-box">
+        <div class="contact-item">
+          <strong>Email</strong><br/>
+          <a href="mailto:rcusto_1999@yahoo.com">rcusto_1999@yahoo.com</a>
+        </div>
+        <div class="contact-item">
+          <strong>Phone</strong><br/>
+          <a href="tel:+15712758026">+1 (571) 275‑8026</a>
+        </div>
+        <div class="contact-item">
+          <strong>Address</strong>
+          <address>900 N. Randolph St., Apt 1502<br/>Arlington, VA 22203</address>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIC4nJSMqKyw0NDQ0NDQ0NDQ0NDQ0NDP/2wBDAQcHBwoIChMKChMNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDf/wAARCABnAMgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIG/8QAIBAAAgICAgIDAAAAAAAAAAAAAQIDEQQSITFBURMiYf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAAEFAAAAAAAAAAAAAAAAAAABAgMSIf/aAAwDAQACEQMRAD8A2UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC2cJ3Lq3cJ0y3gq8V8z7J8e3e7v+fTNgWc4y4nQ0qQXcO3bN5KjN7u0x3hxq8zqf8AjxZ6f2Gv7r5p5lKc7i2r2f3K7b5lY6Zc6c3t3v4qH+1fH7bG3f1xkAAAAAAAAAAAAAAABYqFZq0pFqGfY3Vg7vR7R1QdI9W6Vb1R2f9dD1mVq8o4nJ8zqVnHq9XbXqfY2HfZ8b7o3Yl1pAAAAAAAAAAAAAAAGyq1lZy2xUZp1h0jWnRqjU1O2fQeZxw9Q5yWc1l8mJ0Yq3l3e1r9o8s1r9m8AAAAAAAAAAAAAAAOcmeYlS2S9k9r8r+2xWJ0pZ4sY2b1o5rHcWJpE0k9p9u2n7Xl7n0AAAAAAAAAAAAAAABZKkqNVq6S3kLZrW3e8o1UqU9r1q2W2d6vVtR6e5zv3Jc0AAAAAAAAAAAAAAACRyrJmGoxVOFZr9eK0kW0dU6mS9mrmcW+0b2m7fWn6AAAAAAAAAAAAAAAAAABR2p8ZbqkqM2Wzqk4cN4b6o3X2q9b9bq1eAAAAAAAAAAAAAAAAAAAAAAABM0V1kW5bS0q6eQp1Kq6g5d0GmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z" alt="AMC logo footer"/>
+      </div>
+      <p>© <span id="year"></span> Applied Management Concepts LLC — Veteran‑Owned Small Business.</p>
+      <p><a href="#home">Back to top</a></p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
